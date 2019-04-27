@@ -108,7 +108,7 @@ error_tipo_2 <- function(n, nsim = 10000, alpha = 0.05){
 # Tarda un buen rato...
 
 errors_df <- seq(from = 10, to = 250, by = 10) %>% 
-  map(error_tipo_2) 
+  map(error_tipo_2)
 
 
 power_df <- errors_df %>% 
